@@ -8,6 +8,13 @@ class TestMain < Minitest::Test
   end
 
   def test_it_does_something_useful
-    assert false
+    # NOTE: You can uncomment this assert to check if the rake test works as
+    # intended and then running:
+    #
+    # ```sh
+    # bundle exec rake
+    # ```
+    #
+    # assert false
   end
 end
