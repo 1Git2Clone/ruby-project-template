@@ -1,0 +1,26 @@
+name: Rake
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  rubocop:
+    runs-on: ubuntu-latest
+
+    # https://docs.github.com/en/actions/use-cases-and-examples/building-and-testing/building-and-testing-ruby#specifying-the-ruby-version
+    steps:
+      - name: GH Actions Checkout v4
+        uses: actions/checkout@v4
+      - name: Ruby setup
+        uses: ruby/setup-ruby@ec02537da5712d66d4d50a0f33b7eb52773b5ed1
+
+      - name: Install w/ bundle
+        run: bundle install
+
+      - name: Run rake
+        run: bundle exec rake
