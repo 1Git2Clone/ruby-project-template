@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
   # TODO: Write a longer description or delete this line.
   spec.description = '/dev/null'
   # TODO: Put your gem's website or public repo URL here.
-  spec.homepage = '/dev/null'
+  spec.homepage = 'https://example.com'
   spec.required_ruby_version = '>= 3.0.0'
 
   spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
