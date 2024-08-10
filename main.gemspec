@@ -10,8 +10,10 @@ Gem::Specification.new do |spec|
 
   # TODO: Write a short summary because RubyGems requires one.
   spec.summary = '/dev/null'
-  # spec.description = 'TODO: Write a longer description or delete this line.'
-  # spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  # TODO: Write a longer description or delete this line.
+  spec.description = '/dev/null'
+  # TODO: Put your gem's website or public repo URL here.
+  spec.homepage = '/dev/null'
   spec.required_ruby_version = '>= 3.0.0'
 
   spec.metadata['allowed_push_host'] = "TODO: Set to your gem server 'https://example.com'"
